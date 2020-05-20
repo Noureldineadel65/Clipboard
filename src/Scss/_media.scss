@@ -1,0 +1,41 @@
+// 930
+@media only screen and (max-width: 930px) {
+	p {
+		width: 90% !important;
+	}
+}
+// 778
+@media only screen and (max-width: 778px) {
+	html,
+	body {
+		font-size: 40%;
+	}
+	section {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.row {
+		&.col-2 {
+			grid-template-columns: repeat(1, 1fr);
+			grid-row-gap: 8rem;
+		}
+		&.col-3 {
+			grid-template-columns: repeat(1, 1fr);
+			grid-row-gap: 8rem;
+		}
+		&.col-5 {
+			grid-template-columns: repeat(1, 1fr);
+			grid-row-gap: 8rem;
+		}
+	}
+	footer {
+		padding: 8rem 0;
+		.container {
+			grid-template-columns: repeat(1, 1fr);
+			grid-row-gap: 4rem;
+		}
+	}
+	p {
+		width: 100% !important;
+	}
+}
